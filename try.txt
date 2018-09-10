@@ -11,3 +11,9 @@ bb
 cc
 dd
 issue101
+0000
+dsfaadf try stash
+try stash2
+
+dsfaadf try stash
+
