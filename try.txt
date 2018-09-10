@@ -7,3 +7,6 @@ fdff
 123 for trydev
 33333
 dev add
+0000
+dsfaadf try stash
+try stash2
