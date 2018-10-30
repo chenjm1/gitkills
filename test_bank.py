@@ -40,10 +40,13 @@ class testBankAccount(unittest.TestCase):
         except NotEnough:
             print('---------')
 
-
+from xmlrunner import xmlrunner
 if __name__=="__main__":
     # b=BankAccout()
     # print(b.balance)
     # b.set_balance(50)
     # print(b.balance)
-    unittest.main()
+    # unittest.main()
+    test1=unittest.TestLoader().loadTestsFromTestCase(testBankAccount)
+    testsuit=unittest.TestSuite([test1])
+    xmlrunner.XMLTestRunner(verbosity=2,output='test_reports').run(testsuit)
